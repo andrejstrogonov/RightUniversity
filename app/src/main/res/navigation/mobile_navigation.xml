@@ -12,14 +12,14 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.strogonov.rightuniversity.ui.gallery.GalleryFragment"
+        android:id="@+id/nav_scores"
+        android:name="com.strogonov.rightuniversity.ui.scores.ScoresFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/scores_fragment" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.strogonov.rightuniversity.ui.slideshow.SlideshowFragment"
+        android:id="@+id/nav_objects"
+        android:name="com.strogonov.rightuniversity.ui.objects.ObjectsFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/objects_fragment" />
 </navigation>
