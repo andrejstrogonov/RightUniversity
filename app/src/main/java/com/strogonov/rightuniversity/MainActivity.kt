@@ -12,10 +12,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // get reference to all views
-        var et_email = findViewById(R.id.et_email) as EditText
-        var et_password = findViewById(R.id.et_password) as EditText
-        var btn_login = findViewById(R.id.btn_login) as Button
-        var btn_reg = findViewById(R.id.btn_signup) as Button
+        var et_email = findViewById<EditText>(R.id.et_email)
+        var et_password = findViewById<EditText>(R.id.et_password)
+        var btn_login = findViewById<Button>(R.id.btn_login)
+        var btn_reg = findViewById<Button>(R.id.btn_signup)
         //переход ко второму активити
 
         btn_reg.setOnClickListener{
@@ -24,8 +24,8 @@ class MainActivity : AppCompatActivity() {
         }
         // set on-click listener
         btn_login.setOnClickListener {
-            val user_name = et_email.text;
-            val password = et_password.text;
+            val user_name = et_email.text
+            val password = et_password.text
             val intent = Intent(this@MainActivity, University::class.java)
             startActivity(intent)
 
