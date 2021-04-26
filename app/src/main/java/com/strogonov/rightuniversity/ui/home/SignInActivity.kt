@@ -1,9 +1,10 @@
-package com.strogonov.rightuniversity
+package com.strogonov.rightuniversity.ui.home
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import com.strogonov.rightuniversity.R
 
 class SignInActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -10,11 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RightUniversity">
         <activity
-            android:name=".University"
+            android:name=".ui.home.University"
             android:label="@string/title_activity_university"
             android:theme="@style/Theme.RightUniversity.NoActionBar"></activity>
-        <activity android:name=".SignInActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".ui.home.SignInActivity" />
+        <activity android:name=".ui.home.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

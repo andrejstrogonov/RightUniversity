@@ -1,4 +1,4 @@
-package com.strogonov.rightuniversity.ui.home
+package com.strogonov.rightuniversity.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
